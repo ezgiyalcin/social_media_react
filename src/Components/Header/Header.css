@@ -1,0 +1,94 @@
+.header-container {
+  background: rgb(0, 183, 255);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  height: 60px;
+}
+.header-left {
+  font-weight: 600;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.header-left:hover {
+  color: white;
+  transition: 0.3s;
+}
+.header-center {
+  width: 30%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.header-center input {
+  border: none;
+  width: 60%;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.3s;
+}
+.header-links :hover {
+  color: rgb(70, 70, 70);
+  transition: 0.3s;
+}
+.header-link {
+  text-decoration: none;
+  color: white;
+}
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.header-icon-item {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.header-icon-badge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.header-profile-img {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+
+  cursor: pointer;
+}

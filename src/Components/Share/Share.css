@@ -1,0 +1,32 @@
+.share {
+  display: flex;
+  padding: 20px;
+  margin: 0 10px 10px 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+.share-top {
+  display: flex;
+}
+.share-top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.share-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.share-bottom div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+}
+.share-bottom-btn {
+  margin-left: 20px;
+}
